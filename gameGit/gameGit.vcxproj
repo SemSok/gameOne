@@ -127,7 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Character.cpp" />
+    <ClCompile Include="CharacterVarFun.cpp" />
+    <ClCompile Include="Magician.cpp" />
+    <ClCompile Include="gameGit.cpp" />
+    <ClCompile Include="Warrior.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Character.hpp" />
+    <ClInclude Include="CharacterVarFun.hpp" />
+    <ClInclude Include="Magician.hpp" />
+    <ClInclude Include="Warrior.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
